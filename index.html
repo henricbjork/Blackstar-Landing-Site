@@ -10,7 +10,6 @@
       <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
         <nav class="navBar">
             <div class="hamburger-menu">
@@ -20,20 +19,24 @@
             </div>
             <ul>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Start</a>
+                    <a onclick="scrollToStartPosition()" class="nav-link">Start</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Stats</a>
+                    <a onclick="scrollToStatsPosition()" class="nav-link">Stats</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Merch</a>
+                    <a onclick="scrollToMerchPosition()" class="nav-link">Merch</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a onclick="scrollToContactPosition()" class="nav-link">Contact</a>
                 </li>
             </ul>
         </nav>
     </div>
+
+    <div class="stats" style="height: 100vh; background-color: black"></div>
+    <div class="merch" style="height: 100vh; background-color: blue"></div>
+    <div class="contact" style="height: 100vh; background-color: red"></div>
     
     <script src="main.js"></script>
 </body>
