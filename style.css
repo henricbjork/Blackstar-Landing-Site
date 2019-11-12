@@ -6,9 +6,12 @@
 body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
+p {
+    font-size: 2em;
+}
 .container {
     min-height: 100vh;
-    background: white;
+    background: salmon;
 } 
 .logoMobile {
     position: fixed;
@@ -83,19 +86,19 @@ body {
     justify-content: center;
 }
 .stats {
-    background: black;
+    background: palegreen;
 }
 .stats p {
     margin-top: 100px;
 }
 .merch {
-    background-color: blue;
+    background-color: tomato;
 }
 .merch p {
     margin-top: 100px;
 }
 .contact {
-    background-color: red;
+    background-color: aquamarine;
 }
 .contact p {
     margin-top: 100px;
@@ -104,6 +107,7 @@ footer {
     height: 30vh;
     background: gray;
 }
+
 /* animation on scroll */
 .from-bottom {
     opacity: 0;
