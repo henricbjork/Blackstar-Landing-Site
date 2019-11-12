@@ -7,11 +7,8 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .container {
-    height: 100vh;
-    background: linear-gradient(
-        rgba(0, 0, 0, .4),
-        rgba(148, 48, 48, .2), 
-        rgba(167, 67, 67, .4));
+    min-height: 100vh;
+    background: white;
 } 
 .logoMobile {
     position: fixed;
@@ -77,6 +74,47 @@ body {
     position: relative;
     padding: 3px 0;
 }
+.stats,
+.merch,
+.contact {
+    height: 100vh; 
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.stats {
+    background: black;
+}
+.stats p {
+    margin-top: 100px;
+}
+.merch {
+    background-color: blue;
+}
+.merch p {
+    margin-top: 100px;
+}
+.contact {
+    background-color: red;
+}
+.contact p {
+    margin-top: 100px;
+}
+footer {
+    height: 30vh;
+    background: gray;
+}
+/* animation on scroll */
+.from-bottom {
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+    transform: translateY(5%);
+}
+.from-bottom.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .logoMobile {

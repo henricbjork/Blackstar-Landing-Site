@@ -27,3 +27,32 @@ function scrollToContactPosition() {
     const elmnt = document.querySelector('.contact');
     elmnt.scrollIntoView({ behavior: 'smooth' });
 } 
+
+const faders = document.querySelectorAll('.fade-in');
+const sliders = document.querySelectorAll(".slide-in");
+
+const appearOptions = {
+    threshold: 0.20,
+};
+
+const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+
+    entries.forEach(entry => {
+
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            entry.target.classList.add('appear');
+            appearOnScroll.unobserve(entry.target); //makes it so that the observer stops observing once the function has been executed once.
+        }
+
+    });
+}, appearOptions)
+
+faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+})
+
+sliders.forEach(slider => {
+    appearOnScroll.observe(slider);
+})
