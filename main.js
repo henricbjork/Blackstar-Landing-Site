@@ -45,7 +45,7 @@ const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll
             entry.target.classList.add('appear');
             appearOnScroll.unobserve(entry.target); //makes it so that the observer stops observing once the function has been executed once.
         }
-
+        
     });
 }, appearOptions)
 
