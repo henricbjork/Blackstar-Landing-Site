@@ -78,7 +78,9 @@ p {
     position: relative;
     padding: 3px 0;
 }
+.slideShow,
 .stats,
+.seasons,
 .merch,
 .contact {
     height: 100vh; 
@@ -86,20 +88,32 @@ p {
     display: flex;
     justify-content: center;
 }
+.slideShow {
+    background: palegoldenrod;
+}
+.slideShow p {
+    margin-top: 100px;
+}
 .stats {
-    background: palegreen;
+    background: green;
 }
 .stats p {
     margin-top: 100px;
 }
+.seasons {
+    background: olivedrab;
+}
+.seasons p {
+    margin-top: 100px;
+}
 .merch {
-    background-color: tomato;
+    background: tomato;
 }
 .merch p {
     margin-top: 100px;
 }
 .contact {
-    background-color: aquamarine;
+    background: dodgerblue;
 }
 .contact p {
     margin-top: 100px;
