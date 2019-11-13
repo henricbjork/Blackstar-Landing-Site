@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div id="container" class="container">
             <div class="logoMobile">
                     <img src="images/blackstar-logo-white.svg">
                 </div>
@@ -26,12 +26,18 @@
                         <div class="line line-2"></div>
                         <div class="line line-3"></div>
                     </div>
-            <ul>
+                <ul>
                 <li class="nav-item">
                     <a onclick="scrollToStartPosition()" class="nav-link">Start</a>
                 </li>
                 <li class="nav-item">
+                    <a onclick="scrollToSlideshowPosition()" class="nav-link">Slideshow</a>
+                </li>
+                <li class="nav-item">
                     <a onclick="scrollToStatsPosition()" class="nav-link">Stats</a>
+                </li>
+                <li class="nav-item">
+                        <a onclick="scrollToSeasonsPosition()" class="nav-link">Seasons</a>
                 </li>
                 <li class="nav-item">
                     <a onclick="scrollToMerchPosition()" class="nav-link">Merch</a>
@@ -43,16 +49,24 @@
         </nav>
     </div>
 
-    <div class="stats">
-        <p class="slide-in from-bottom">Motorcycles</p>
+    <div id="slideShow" class="slideShow">
+        <p class="slide-in from-bottom">SlideShow</p>
     </div>
 
-    <div class="merch">
-        <p class="slide-in from-bottom">Are</p>
+    <div id="stats" class="stats">
+        <p class="slide-in from-bottom">Stats</p>
     </div>
 
-    <div class="contact">
-        <p class="slide-in from-bottom">Very Cool</p>
+    <div id="seasons" class="seasons">
+        <p class="slide-in from-bottom">Seasons</p>
+    </div>
+
+    <div id="merch" class="merch">
+        <p class="slide-in from-bottom">Merch</p>
+    </div>
+
+    <div id="contact" class="contact">
+        <p class="slide-in from-bottom">Contact</p>
     </div>
     
     <footer>

@@ -31,6 +31,7 @@ p {
     align-items: center;
     transition: bottom .8s;
     text-align: center;
+    z-index: 10;
 }
 .change {
     bottom: 0;
@@ -77,7 +78,9 @@ p {
     position: relative;
     padding: 3px 0;
 }
+.slideShow,
 .stats,
+.seasons,
 .merch,
 .contact {
     height: 100vh; 
@@ -85,20 +88,32 @@ p {
     display: flex;
     justify-content: center;
 }
+.slideShow {
+    background: palegoldenrod;
+}
+.slideShow p {
+    margin-top: 100px;
+}
 .stats {
-    background: palegreen;
+    background: green;
 }
 .stats p {
     margin-top: 100px;
 }
+.seasons {
+    background: olivedrab;
+}
+.seasons p {
+    margin-top: 100px;
+}
 .merch {
-    background-color: tomato;
+    background: tomato;
 }
 .merch p {
     margin-top: 100px;
 }
 .contact {
-    background-color: aquamarine;
+    background: dodgerblue;
 }
 .contact p {
     margin-top: 100px;
@@ -115,6 +130,7 @@ footer {
     transform: translateY(5%);
 }
 .from-bottom.appear {
+    z-index: 0;
     opacity: 1;
     transform: translateY(0);
 }
