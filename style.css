@@ -31,6 +31,7 @@ p {
     align-items: center;
     transition: bottom .8s;
     text-align: center;
+    z-index: 10;
 }
 .change {
     bottom: 0;
@@ -115,6 +116,7 @@ footer {
     transform: translateY(5%);
 }
 .from-bottom.appear {
+    z-index: 0;
     opacity: 1;
     transform: translateY(0);
 }
