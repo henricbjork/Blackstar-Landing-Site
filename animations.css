@@ -1,0 +1,11 @@
+/* animation on scroll */
+.from-bottom {
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+    transform: translateY(5%);
+}
+.from-bottom.appear {
+    z-index: 0;
+    opacity: 1;
+    transform: translateY(0);
+}
