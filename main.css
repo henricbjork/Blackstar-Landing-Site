@@ -9,7 +9,11 @@ body {
 p {
     font-size: 2em;
 }
-
+.seasons {
+    background: url(/images/seasons.jpg) no-repeat bottom;
+    min-height: 100vh;
+    background-size: contain;
+}
 
 
 

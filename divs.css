@@ -24,8 +24,14 @@
 .stats p {
     margin-top: 100px;
 }
+/* Responsive background images: https://aclaes.com/responsive-background-images-with-srcset-and-sizes/ */
 .seasons {
-    background: olivedrab;
+    background-image: url(./images/seasons.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
 }
 .seasons p {
     margin-top: 100px;
