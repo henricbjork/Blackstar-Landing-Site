@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'aktivgrotesk-regular', sans-serif;
 }
 p {
     font-size: 2em;
@@ -13,6 +13,9 @@ p {
     background: url(/images/seasons.jpg) no-repeat bottom;
     min-height: 100vh;
     background-size: contain;
+}
+footer {
+    display: flex;
 }
 
 

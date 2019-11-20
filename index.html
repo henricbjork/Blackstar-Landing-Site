@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="animations.css">
       <link rel="stylesheet" href="divs.css">
       <link rel="stylesheet" href="slider.css">
+      <link rel="stylesheet" href="fonts/fonts.css">
 </head>
 <body>
 
@@ -58,23 +59,25 @@
             <div class="sectionSlides fade">
               <div class="section-slider__numbertext">1 / 3</div>
               <img src="images/seasons.jpg">
-              <div class="section-slider__text">1. Eventuell slide in effect på text</div>
             </div>
           
             <div class="sectionSlides fade">
               <div class="section-slider__numbertext">2 / 3</div>
               <img src="images/seasons.jpg">
-              <div class="section-slider__text">2. Eventuell slide in effect på text</div>
             </div>
           
             <div class="sectionSlides fade">
               <div class="section-slider__numbertext">3 / 3</div>
               <img src="images/seasons.jpg">
-              <div class="section-slider__text">Eventuell slide in effect på text</div>
             </div>
           
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <div class="blogSlider__dots" style="text-align:center">
+            <span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span> 
+            <span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span> 
+            <span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span> 
           </div>
     </div>
 
@@ -95,7 +98,19 @@
     </div>
     
     <footer>
-        
+        <h3 class="footerHeading">Blackstar</h3>
+        <section class="sectionFooterLeft">
+            <span><a href="mailto:blackstar@oldsmobile.com">blackstar@oldsmobile.com</a></span>
+            <span><a href="tel:00 00 000 00 00">+00 00 000 00 00</a></span>
+            <span>Andra Långgatan 69<br>413 37 Gothenburg<br>SWE</span>
+            <img src="images/twitter.svg" alt="Twitter" loading="lazy">
+            <img src="images/instagram.svg" alt="Instagram" loading="lazy">
+        </section>
+        <section class="setionFooterRight">
+            <span>From 1897 to the future. BLACKSTAR is the new generation of the Oldsmobile family that takes you from A to B with style.</span>
+            <img src="images/oldsmobile.svg" alt="Oldsmobile" loading="lazy">
+        </section>
+        <section class="sectionFooterBottom">Copyrigth all rights reserved Oldsmobile AB</section>
     </footer>
 
     <script src="slideins.js"></script>
