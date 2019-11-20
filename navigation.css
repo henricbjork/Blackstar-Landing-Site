@@ -1,10 +1,19 @@
 .logoMobile {
     position: fixed;
-    top: 20px;
-    left: 20px;
+    margin: 0 auto;
+    top: 15px;
+    left: 48%;
 }
 .logoDesktop {
     display: none;
+}
+.navBackground {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.5;
 }
 .navBar {
     width: 100%;
@@ -16,6 +25,11 @@
     align-items: center;
     transition: bottom .8s;
     text-align: center;
+    background-color: rgba(0, 0, 0, .8);
+}
+.navBar, 
+.languagePicker,
+.logoMobile {
     z-index: 10;
 }
 .change {
@@ -26,7 +40,7 @@
     height: 30px;
     position: fixed;
     top: 20px;
-    right: 20px;
+    left: 20px;
     cursor: pointer;
     display: flex; 
     flex-direction: column;
@@ -63,7 +77,15 @@
     position: relative;
     padding: 3px 0;
 }
-
+.languagePicker {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    font-family: AktivGrotesk-Light;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 .logoMobile {

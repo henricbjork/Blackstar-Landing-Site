@@ -8,41 +8,98 @@
 .merch,
 .contact {
     height: 100vh; 
-    color: white;
+}
+.heroContainer {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+.heroContainer h1 {
+    width: 343px;
+    height: 37px;
+    font-family: AktivGrotesk-Light;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.heroContainer p {
+    width: 223px;
+    height: 40px;
+    left: 76px;
+    top: 331px;
+    font-family: AktivGrotesk-Light;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.heroContainer button {
+    height: 36px;
+    width: 106px;
+    background: #FFDF00;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: AktivGrotesk-Light;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    border: none;
 }
 .slideShow {
     background: palegoldenrod;
 }
-.slideShow p {
-    margin-top: 100px;
-}
 .stats {
     background: green;
-}
-.stats p {
-    margin-top: 100px;
 }
 .seasons {
     background: olivedrab;
 }
-.seasons p {
-    margin-top: 100px;
-}
 .merch {
     background: tomato;
-}
-.merch p {
-    margin-top: 100px;
 }
 .contact {
     background: dodgerblue;
 }
-.contact p {
-    margin-top: 100px;
-}
 footer {
     height: 30vh;
     background: gray;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats a {
+    margin: 30px 0px 75px 0px;
+    text-align: center;
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFDF00;
+}
+.specs {
+    border-left: 1px solid #828282;;
+    width: 215px;
+    margin: 0px 0px 68px 0px;
+}
+.specs p {
+    padding: 16px;
+}
+.specs h1 {
+    padding-left: 16px;
+}
+.specs h1 {
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+.specs p {
+    font-family: AktivGrotesk-Regular;
+    font-size: 14px;
+    line-height: 143.5%;
+    color: #D7D7D7;
 }
