@@ -2,6 +2,14 @@ const menuIcon = document.querySelector('.hamburger-menu');
 
 const navbar = document.querySelector('.navBar');
 
+const navItems = document.querySelectorAll('.nav-item');
+
+navItems.forEach((navItem) => {
+    navItem.addEventListener('click', () => {
+        navbar.classList.toggle('change');
+    })
+})
+
 menuIcon.addEventListener('click', () => {
     navbar.classList.toggle('change');
 })
