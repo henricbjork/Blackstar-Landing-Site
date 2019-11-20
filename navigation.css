@@ -1,16 +1,25 @@
 .logoMobile {
     position: fixed;
-    margin: 0 auto;
     top: 15px;
     left: 48%;
 }
 .logoDesktop {
     display: none;
 }
+.languagePicker {
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    font-family: AktivGrotesk-Light;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
 .navBackground {
     height: 70px;
     width: 100%;
     position: fixed;
+    background-color: rgba(0, 0, 0, .8);
     z-index: 5;
     background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
     opacity: 0.5;
@@ -76,15 +85,6 @@
     letter-spacing: 1px;
     position: relative;
     padding: 3px 0;
-}
-.languagePicker {
-    position: fixed;
-    top: 25px;
-    right: 20px;
-    font-family: AktivGrotesk-Light;
-    font-size: 13px;
-    line-height: 15px;
-    color: #FFFFFF;
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {

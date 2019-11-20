@@ -37,37 +37,11 @@
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-.heroContainer button {
-    height: 36px;
-    width: 106px;
-    background: #FFDF00;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    font-family: AktivGrotesk-Light;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    border: none;
-}
 .slideShow {
     background: palegoldenrod;
 }
 .stats {
     background: green;
-}
-.seasons {
-    background: olivedrab;
-}
-.merch {
-    background: tomato;
-}
-.contact {
-    background: dodgerblue;
-}
-footer {
-    height: 30vh;
-    background: gray;
-}
-.stats {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,4 +76,51 @@ footer {
     font-size: 14px;
     line-height: 143.5%;
     color: #D7D7D7;
+}
+
+.seasons {
+    background: olivedrab;
+}
+.merch {
+    background: tomato;
+}
+.contact {
+    background: black;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+label {
+    font-family: AktivGrotesk-Light;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+input {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #858585;
+    margin-bottom: 25px;
+    background: transparent;
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 15px;
+    color: #858585;
+}
+::placeholder {
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    color: #858585;
+
+}
+footer {
+    height: 30vh;
+    background: gray;
 }
