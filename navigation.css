@@ -7,9 +7,12 @@
     display: none;
 }
 .languagePicker {
+    display: flex;
+    justify-content: space-evenly;
     position: fixed;
+    width: 50px;
     top: 25px;
-    right: 20px;
+    right: 1px;
     font-size: 13px;
     line-height: 15px;
     color: #FFFFFF;
