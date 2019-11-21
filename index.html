@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="animations.css" />
     <link rel="stylesheet" href="divs.css" />
     <link rel="stylesheet" href="slide.css" />
+    <link rel="stylesheet" href="merch.css" />
   </head>
   <body>
     <div id="container" class="container">
@@ -186,7 +187,23 @@
     </div>
 
     <div id="merch" class="merch">
-      <p class="slide-in from-bottom">Merch</p>
+      <!-- Merch slider -->
+      <div class="merchContainer">
+        <div id="merchSlider" class="merchSlider">
+          <div class="wrapper">
+            <div id="items" class="items">
+              <div class="slide">
+                slide 1</div>
+              <div class="slide">Slide 2</div>
+              <div class="slide">Slide 3</div>
+              <div class="slide">Slide 4</div>
+              <div class="slide">Slide 5</div>
+            </div>
+          </div>
+          <a id="prev" class="control prev">&#10094;</a>
+          <a id="next" class="control next">&#10095;</a>
+        </div>
+      </div>
     </div>
 
     <div id="contact" class="contact">
@@ -224,5 +241,6 @@
     <script src="slideins.js"></script>
     <script src="navigation.js"></script>
     <script src="slide.js"></script>
+    <script src="merch.js"></script>
   </body>
 </html>
