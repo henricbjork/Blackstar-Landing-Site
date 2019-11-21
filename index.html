@@ -11,6 +11,7 @@
       <link rel="stylesheet" href="navigation.css">
       <link rel="stylesheet" href="animations.css">
       <link rel="stylesheet" href="divs.css">
+      <link rel="stylesheet" href="slide.css">
 </head>
 <body>      
 
@@ -66,6 +67,33 @@
     </div>
 
     <div id="slideShow" class="slideShow">
+        <!-- Replace me with the slideshow-->
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with navigate indicators -->
+  <div class="mySlides fade">
+    <img src="images/slider.png">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slider.png">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/slider.png">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)"><svg width="16" height="8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.646 3.646a.5.5 0 000 .708l3.182 3.182a.5.5 0 10.708-.708L1.707 4l2.829-2.828a.5.5 0 10-.708-.708L.646 3.646zM16 3.5H1v1h15v-1z" fill="#000"/></svg></a>
+  <a class="next" onclick="plusSlides(1)"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.354 3.646a.5.5 0 010 .708l-3.182 3.182a.5.5 0 11-.708-.708L14.293 4l-2.829-2.828a.5.5 0 11.708-.708l3.182 3.182zM0 3.5h15v1H0v-1z" fill="#000"/></svg></a>
+  <!-- The dots/circles -->
+  <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+   </div>
+</div>
     </div>
 
     <div id="stats" class="stats">
@@ -129,5 +157,6 @@
 
     <script src="slideins.js"></script>
     <script src="navigation.js"></script>
+    <script src="slide.js"></script>
 </body>
 </html>
