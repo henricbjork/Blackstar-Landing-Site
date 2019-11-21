@@ -1,6 +1,7 @@
 .container {
     min-height: 100vh;
-    background: salmon;
+    background: url(images/background-images/hero.png) no-repeat;
+    background-size: cover;
 } 
 .slideShow,
 .stats,
@@ -39,12 +40,12 @@
     background: palegoldenrod;
 }
 .stats {
-    background: green;
+    background: #0000;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.stats a {
+.downloadFolder {
     margin: 30px 0px 75px 0px;
     text-align: center;
     font-family: AktivGrotesk-Regular;
@@ -83,7 +84,8 @@
     background: tomato;
 }
 .contact {
-    background: black;
+    background: url(images/background-images/form.png) no-repeat;
+    background-size: cover;
 }
 form {
     display: flex;
