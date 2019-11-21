@@ -1,120 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="main.css">
-      <link rel="stylesheet" href="navigation.css">
-      <link rel="stylesheet" href="animations.css">
-      <link rel="stylesheet" href="divs.css">
-</head>
-<body>      
-
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="navigation.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="divs.css" />
+    <link rel="stylesheet" href="slide.css" />
+  </head>
+  <body>
     <div id="container" class="container">
-            <div class="logoMobile">
-                    <img src="images/blackstar-logo-white.svg" alt="blackstar-logo" loading="lazy">
-                </div>
+      <div class="logoMobile">
+        <img
+          src="images/blackstar-logo-white.svg"
+          alt="blackstar-logo"
+          loading="lazy"
+        />
+      </div>
 
-                <div class="navBackground"></div>
+      <div class="navBackground"></div>
 
-            <nav class="navBar">
-                    <div class="logoDesktop">
-                            <img src="images/blackstar-logo-white.svg" alt="blackstar-logo" loading="lazy">
-                        </div>
-
-                    <div class="hamburger-menu">
-                        <div class="line line-1"></div>
-                        <div class="line line-2"></div>
-                        <div class="line line-3"></div>
-                    </div>
-                <ul>
-                <li class="nav-item">
-                    <p onclick="scrollToStartPosition()" class="nav-link">Start</p>
-                </li>
-                <li class="nav-item">
-                    <a onclick="scrollToSlideshowPosition()" class="nav-link">Slideshow</a>
-                </li>
-                <li class="nav-item">
-                    <a onclick="scrollToStatsPosition()" class="nav-link">Stats</a>
-                </li>
-                <li class="nav-item">
-                        <a onclick="scrollToSeasonsPosition()" class="nav-link">Seasons</a>
-                </li>
-                <li class="nav-item">
-                    <a onclick="scrollToMerchPosition()" class="nav-link">Merch</a>
-                </li>
-                <li class="nav-item">
-                    <a onclick="scrollToContactPosition()" class="nav-link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div class="languagePicker">
-            <p>Eng</p>
+      <nav class="navBar">
+        <div class="logoDesktop">
+          <img
+            src="images/blackstar-logo-white.svg"
+            alt="blackstar-logo"
+            loading="lazy"
+          />
         </div>
 
-        <div class="heroContainer">
-            <h1>From A to B with style</h1>
-            <p>Experience the new generation. Sign up for our newsletter</p>
-            <button>Sign up</button>
+        <div class="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
         </div>
+        <ul>
+          <li class="nav-item">
+            <p onclick="scrollToStartPosition()" class="nav-link">Start</p>
+          </li>
+          <li class="nav-item">
+            <a onclick="scrollToSlideshowPosition()" class="nav-link"
+              >Slideshow</a
+            >
+          </li>
+          <li class="nav-item">
+            <a onclick="scrollToStatsPosition()" class="nav-link">Stats</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="scrollToSeasonsPosition()" class="nav-link">Seasons</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="scrollToMerchPosition()" class="nav-link">Merch</a>
+          </li>
+          <li class="nav-item">
+            <a onclick="scrollToContactPosition()" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
+      <div class="languagePicker">
+        <p>Eng</p>
+      </div>
+
+      <div class="heroContainer">
+        <h1>From A to B with style</h1>
+        <p>Experience the new generation. Sign up for our newsletter</p>
+        <button>Sign up</button>
+      </div>
     </div>
 
     <div id="slideShow" class="slideShow">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with navigate indicators -->
+        <div class="mySlides fade">
+          <img src="images/slider.png" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/slider.png" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/slider.png" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"
+          ><svg
+            width="16"
+            height="8"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M.646 3.646a.5.5 0 000 .708l3.182 3.182a.5.5 0 10.708-.708L1.707 4l2.829-2.828a.5.5 0 10-.708-.708L.646 3.646zM16 3.5H1v1h15v-1z"
+              fill="#000"
+            /></svg
+        ></a>
+        <a class="next" onclick="plusSlides(1)"
+          ><svg
+            width="16"
+            height="16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.354 3.646a.5.5 0 010 .708l-3.182 3.182a.5.5 0 11-.708-.708L14.293 4l-2.829-2.828a.5.5 0 11.708-.708l3.182 3.182zM0 3.5h15v1H0v-1z"
+              fill="#000"
+            /></svg
+        ></a>
+        <!-- The line-indicators -->
+        <div class="dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
     </div>
 
     <div id="stats" class="stats">
+      <a>Download Folder</a>
 
-        <a>Download Folder</a>
-
-        <div class="specsContainer">
-
-            <div class="specs one">
-                <h1>Cool</h1>
-                <p>Sed nisi, faucibus vitae pulvinar convallis at in. Ante et integer massa enim</p>
-            </div>
-
-            <div class="specs two">
-                    <h1>Cool</h1>
-                    <p>Sed nisi, faucibus vitae pulvinar convallis at in. Ante et integer massa enim</p>
-                </div>
-
-                <div class="specs three">
-                        <h1>Cool</h1>
-                        <p>Sed nisi, faucibus vitae pulvinar convallis at in. Ante et integer massa enim</p>
-                    </div>
-
+      <div class="specsContainer">
+        <div class="specs one">
+          <h1>Cool</h1>
+          <p>
+            Sed nisi, faucibus vitae pulvinar convallis at in. Ante et integer
+            massa enim
+          </p>
         </div>
+
+        <div class="specs two">
+          <h1>Cool</h1>
+          <p>
+            Sed nisi, faucibus vitae pulvinar convallis at in. Ante et integer
+            massa enim
+          </p>
+        </div>
+
+        <div class="specs three">
+          <h1>Cool</h1>
+          <p>
+            Sed nisi, faucibus vitae pulvinar convallis at in. Ante et integer
+            massa enim
+          </p>
+        </div>
+      </div>
     </div>
 
     <div id="seasons" class="seasons">
-        <p class="slide-in from-bottom">Seasons</p>
+      <p class="slide-in from-bottom">Seasons</p>
     </div>
 
     <div id="merch" class="merch">
-        <p class="slide-in from-bottom">Merch</p>
+      <p class="slide-in from-bottom">Merch</p>
     </div>
 
     <div id="contact" class="contact">
-
-        <form class="slide-in from-bottom">
-            <label for="email">Sign up for newsletter</label>
-            <input placeholder="Enter email">
-            <button type="submit">Sign up</button>
-        </form>
-
+      <form class="slide-in from-bottom">
+        <label for="email">Sign up for newsletter</label>
+        <input placeholder="Enter email" />
+        <button type="submit">Sign up</button>
+      </form>
     </div>
-    
+
     <footer>
-        
+      <img src="images/oldsmobile.svg" alt="Oldsmobile" loading="lazy" />
+      <section class="footerBoxes">
+        <div class="footerInfo">
+          <p>
+            From 1897 to the future. BLACKSTAR is the new generation of the
+            Oldsmobile family that takes you from A to B with style.
+          </p>
+        </div>
+        <div class="contactInfo">
+          <span
+            ><a href="mailto:blackstar@oldsmobile.com"
+              >blackstar@oldsmobile.com</a
+            ></span
+          >
+          <span><a href="tel:00 00 000 00 00">+00 00 000 00 00</a></span>
+          <span>Andra Långgatan 69<br />413 37 Gothenburg<br />SWE</span>
+          <img src="images/twitter.svg" alt="Twitter" loading="lazy" />
+          <img src="images/instagram.svg" alt="Instagram" loading="lazy" />
+        </div>
+      </section>
+      <div class="boxBottom">Copyrigth all rights reserved Oldsmobile AB</div>
     </footer>
 
     <script src="slideins.js"></script>
     <script src="navigation.js"></script>
-</body>
+    <script src="slide.js"></script>
+  </body>
 </html>
