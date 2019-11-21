@@ -1,9 +1,26 @@
 const menuIcon = document.querySelector('.hamburger-menu');
 
-const navbar = document.querySelector('.navBar');
+const navBar = document.querySelector('.navBar');
+
+const navItems = document.querySelectorAll('.nav-item');
+
+navItems.forEach((navItem) => {
+
+    navItem.addEventListener('click', () => {
+
+        setTimeout (function() {
+            navBar.classList.toggle('change')
+        }, 800)
+
+        // if at location {
+        //     navBar.classList.toggle('change')
+        // }
+        
+    })
+})
 
 menuIcon.addEventListener('click', () => {
-    navbar.classList.toggle('change');
+    navBar.classList.toggle('change');
 })
 
 // scrolls to position of div "container" on click

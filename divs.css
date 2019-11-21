@@ -8,39 +8,114 @@
 .merch,
 .contact {
     height: 100vh; 
-    color: white;
+}
+.heroContainer {
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+.heroContainer h1 {
+    width: 343px;
+    height: 37px;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.heroContainer p {
+    width: 223px;
+    height: 40px;
+    left: 76px;
+    top: 331px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .slideShow {
     background: palegoldenrod;
 }
-.slideShow p {
-    margin-top: 100px;
-}
 .stats {
     background: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.stats p {
-    margin-top: 100px;
+.stats a {
+    margin: 30px 0px 75px 0px;
+    text-align: center;
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFDF00;
 }
+.specs {
+    border-left: 1px solid #828282;;
+    width: 215px;
+    margin: 0px 0px 68px 0px;
+}
+.specs p {
+    padding: 16px;
+}
+.specs h1 {
+    padding-left: 16px;
+}
+.specs h1 {
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8D8D8D;
+}
+.specs p {
+    font-family: AktivGrotesk-Regular;
+    font-size: 14px;
+    line-height: 143.5%;
+    color: #D7D7D7;
+}
+
 .seasons {
     background: olivedrab;
-}
-.seasons p {
-    margin-top: 100px;
 }
 .merch {
     background: tomato;
 }
-.merch p {
-    margin-top: 100px;
-}
 .contact {
-    background: dodgerblue;
+    background: black;
 }
-.contact p {
-    margin-top: 100px;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+label {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+input {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #858585;
+    margin-bottom: 25px;
+    background: transparent;
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 15px;
+    color: #858585;
+}
+::placeholder {
+    font-family: AktivGrotesk-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    color: #858585;
+
 }
 footer {
     height: 30vh;
