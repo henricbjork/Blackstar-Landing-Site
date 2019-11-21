@@ -1,24 +1,24 @@
 const menuIcon = document.querySelector('.hamburger-menu');
-
 const navBar = document.querySelector('.navBar');
-
 const navItems = document.querySelectorAll('.nav-item');
+const languagePicker = document.querySelector('.languagePicker');
+const dropDownMenu = document.querySelector('.dropDown');
 
+
+
+// makes the nav bar dissappear when clicking on a navigation link
 navItems.forEach((navItem) => {
 
     navItem.addEventListener('click', () => {
 
-        setTimeout (function() {
             navBar.classList.toggle('change')
-        }, 800)
 
-        // if at location {
-        //     navBar.classList.toggle('change')
-        // }
-        
     })
 })
-
+// add the class of 'change" to the navbar when clicking on hamburger menu, makeing the navigation links appear
+menuIcon.addEventListener('click', () => {
+    navBar.classList.toggle('change');
+})
 menuIcon.addEventListener('click', () => {
     navBar.classList.toggle('change');
 })

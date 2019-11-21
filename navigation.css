@@ -7,12 +7,41 @@
     display: none;
 }
 .languagePicker {
+    display: flex;
+    justify-content: space-evenly;
     position: fixed;
+    width: 50px;
     top: 25px;
-    right: 20px;
+    right: 1px;
     font-size: 13px;
     line-height: 15px;
     color: #FFFFFF;
+}
+.dropDown {
+    position: fixed;
+    top: 50px;
+    right: 1px;
+    height: 100px;
+    width: 50px;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #FFFFFF;
+    opacity: 0;
+}
+.dropDownItem {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dropDown img {
+    height: 13px;
+}
+.dropDown img, 
+.dropDown p {
+    margin-top: 9px;
+}
+.change {
+    bottom: 0;
+    opacity: 1;
 }
 .navBackground {
     height: 70px;
