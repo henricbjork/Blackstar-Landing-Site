@@ -19,9 +19,11 @@ navItems.forEach((navItem) => {
 menuIcon.addEventListener('click', () => {
     navBar.classList.toggle('change');
 })
-menuIcon.addEventListener('click', () => {
-    navBar.classList.toggle('change');
+
+languagePicker.addEventListener('click', () => {
+    dropDownMenu.classList.toggle('change');
 })
+
 
 // scrolls to position of div "container" on click
 function scrollToStartPosition() {
