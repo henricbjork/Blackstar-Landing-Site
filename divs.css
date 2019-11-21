@@ -1,6 +1,7 @@
 .container {
     min-height: 100vh;
-    background: salmon;
+    background: url(images/Rectangle\ 4.png) no-repeat;
+    background-size: cover;
 } 
 .slideShow,
 .stats,
@@ -83,7 +84,8 @@
     background: tomato;
 }
 .contact {
-    background: black;
+    background: url(images/Rectangle\ 63.png) no-repeat;
+    background-size: cover;
 }
 form {
     display: flex;
