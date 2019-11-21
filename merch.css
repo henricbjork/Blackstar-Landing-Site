@@ -22,7 +22,7 @@
   width: 10000px;
   position: relative;
   top: 0;
-  left: -247px;
+  left: -283px;
 }
 
 #items.shifting {
@@ -30,7 +30,7 @@
 }
 
 .slide {
-  width: 250px;
+  width: 274px;
   height: 363px;
   cursor: pointer;
   float: left;
@@ -40,7 +40,6 @@
   transition: all 1s;
   position: relative;
   background: #FFCF47;
-  margin: 20px;
 }
 
 .control {
