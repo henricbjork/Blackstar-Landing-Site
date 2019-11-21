@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'aktivgrotesk-regular', sans-serif;
+    background-color: #000; /** The figma file have black background from top to bottom **/
 }
 p {
     font-size: 2em;
@@ -14,9 +15,5 @@ p {
     min-height: 100vh;
     background-size: contain;
 }
-footer {
-    display: flex;
-}
-
 
 
