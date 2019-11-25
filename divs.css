@@ -3,7 +3,7 @@
     background: url(images/background-images/hero.png) no-repeat center;
     background-size: cover;
 } 
-.slideShow,
+
 .stats,
 .seasons,
 .merch,
@@ -38,6 +38,7 @@
 }
 .slideShow {
     background: palegoldenrod;
+    height: 100vh;
 }
 .stats {
     background: #0000;
@@ -79,7 +80,6 @@
     line-height: 143.5%;
     color: #D7D7D7;
 }
-
 .seasons {
     background: olivedrab;
 }
