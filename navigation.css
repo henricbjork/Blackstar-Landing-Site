@@ -9,8 +9,8 @@
     justify-content: space-evenly;
     position: fixed;
     width: 50px;
-    top: 25px;
-    right: 1px;
+    top: 20px;
+    right: 10px;
     font-size: 16px;
     line-height: 15px;
     color: #FFFFFF;
@@ -78,8 +78,8 @@
     width: 35px;
     height: 30px;
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     cursor: pointer;
     display: flex; 
     flex-direction: column;
