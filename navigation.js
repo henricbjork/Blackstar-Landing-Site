@@ -3,6 +3,8 @@ const navBar = document.querySelector('.navBar');
 const navItems = document.querySelectorAll('.nav-item');
 const languagePicker = document.querySelector('.languagePicker');
 const dropDownMenu = document.querySelector('.dropDown');
+const startLink = document.querySelector('.start');
+
 
 
 
@@ -26,10 +28,15 @@ languagePicker.addEventListener('click', () => {
 
 
 // scrolls to position of div "container" on click
-function scrollToStartPosition() {
-    const elmnt = document.querySelector('#container');
-    elmnt.scrollIntoView({ behavior: 'smooth' });
-} 
+
+startLink.addEventListener('click', (event) => {
+    setTimeout(function scrollToStartPosition() {
+        container.scrollIntoView({ behavior: 'smooth' });
+    }, 500)
+})
+
+
+
 
 function scrollToSlideshowPosition() {
     const elmnt = document.querySelector('#slideShow');
