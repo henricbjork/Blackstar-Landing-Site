@@ -51,7 +51,6 @@
   width: 40px;
   height: 40px;
   background: #fff;
-  border-radius: 20px;
   margin-top: -20px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 2;
@@ -59,22 +58,18 @@
 
 .prev,
 .next {
-  background-size: 22px;
+  background-size: 18px;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  color: #000;
-  text-align: center;
-  line-height: 40px;
 }
 
 .prev {
-  background-image: url(ChevronLeft.png);
-  left: -20px;
+  background-image: url(images/left-arrow.svg);
 }
 
 .next {
-  background-image: url(ChevronRight-512.png);
+  background-image: url(images/right-arrow.svg);
 }
 
 .prev:active,
