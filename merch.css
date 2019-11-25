@@ -22,7 +22,7 @@
   width: 10000px;
   position: relative;
   top: 0;
-  left: -283px;
+  left: -224px;
 }
 
 #items.shifting {
@@ -39,7 +39,10 @@
   justify-content: center;
   transition: all 1s;
   position: relative;
-  background: #FFCF47;
+}
+.slide img {
+  object-fit: cover;
+  padding: 0 20px;
 }
 
 .control {
