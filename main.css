@@ -6,6 +6,7 @@
 body {
     font-family: 'AktivGrotesk-Light', sans-serif;
     background-color: #000;
+    min-width: 350px;
 }
 button {
     height: 36px;

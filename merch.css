@@ -10,7 +10,7 @@
 .wrapper {
   overflow: hidden;
   position: relative;
-  background: #222;
+  background: #000;
   z-index: 1;
   height: 100vh;
   display: flex;
