@@ -1,0 +1,83 @@
+.merchContainer{
+  position: relative;
+}
+.slider {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  background: #222;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#items {
+  width: 10000px;
+  position: relative;
+  top: 0;
+  left: -224px;
+}
+
+#items.shifting {
+  transition: left .2s ease-out;
+}
+
+.slide {
+  width: 274px;
+  height: 363px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+  position: relative;
+}
+.slide img {
+  object-fit: cover;
+  padding: 0 20px;
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: -20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.prev,
+.next {
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+}
+
+.prev {
+  background-image: url(ChevronLeft.png);
+  left: -20px;
+}
+
+.next {
+  background-image: url(ChevronRight-512.png);
+}
+
+.prev:active,
+.next:active {
+  transform: scale(0.8);
+}
