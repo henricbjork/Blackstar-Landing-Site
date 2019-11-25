@@ -1,5 +1,7 @@
 const sliders = document.querySelectorAll(".slide-in");
 
+
+// tells the animation when to happen based on how far down the div the user has scrolled
 const appearOptions = {
     threshold: 0.50,
 };
