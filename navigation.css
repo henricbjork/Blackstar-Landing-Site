@@ -78,7 +78,7 @@
 .change {
     bottom: 0;
 }
-.hamburger-menu {
+.hamburgerMenu {
     width: 35px;
     height: 30px;
     position: fixed;
@@ -107,11 +107,14 @@
 .nav-list {
     text-align: right;
 }
-.nav-item {
+.navItem {
     list-style: none;
     margin: 25px;
 }
-.nav-link {
+.navItem:hover {
+    cursor: pointer;
+}
+.navLink {
     text-decoration: none;
     font-size: 22px;
     color: #eee;
