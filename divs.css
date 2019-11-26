@@ -56,6 +56,9 @@
     line-height: 19px;
     color: #FFDF00;
 }
+.downloadFolder a:hover {
+    cursor: pointer;
+}
 .specs {
     border-left: 1px solid #828282;;
     width: 215px;

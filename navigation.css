@@ -15,6 +15,10 @@
     line-height: 15px;
     color: #FFFFFF;
 }
+.languagePicker:hover,
+.dropDownItem:hover {
+    cursor: pointer;
+}
 .dropDown {
     display: flex;
     flex-direction: column;
