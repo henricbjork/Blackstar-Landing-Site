@@ -5,7 +5,6 @@
 } 
 .stats,
 .seasons,
-.merch,
 .contact {
     height: 100vh; 
 }
@@ -46,14 +45,24 @@
     align-items: center;
     justify-content: center;
 }
-.downloadFolder {
+.statsImage {
     position: absolute;
-    top: 30px;
+    width: 330px;
+    height: auto;
+    left: -170px;
+    z-index: 1;
+}
+.specsContainer {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.downloadFolder {
     width: 100%;
     text-align: center;
     font-family: AktivGrotesk-Regular;
     font-size: 16px;
-    line-height: 19px;
     color: #FFDF00;
 }
 .downloadFolder a:hover {
@@ -62,7 +71,7 @@
 .specs {
     border-left: 1px solid #828282;;
     width: 215px;
-    margin: 75px 0px 68px 0px;
+    z-index: 5;
 }
 .specs p {
     padding: 16px;
@@ -87,6 +96,7 @@
 }
 .merch {
     background: #000;
+    height: 80vh;
 }
 .contact {
     background: url(images/background-images/form.png) no-repeat center;
