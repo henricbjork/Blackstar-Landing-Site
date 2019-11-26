@@ -1,4 +1,4 @@
-const sliders = document.querySelectorAll(".slide-in");
+const sliders = document.querySelectorAll(".slideIn");
 
 
 // tells the animation when to happen based on how far down the div the user has scrolled
