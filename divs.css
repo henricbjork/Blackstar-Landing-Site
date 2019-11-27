@@ -3,7 +3,6 @@
     background: url(images/background-images/hero.png) no-repeat center;
     background-size: cover;
 } 
-.stats,
 .seasons,
 .contact {
     height: 100vh; 
@@ -37,62 +36,6 @@
 .slideShow {
     background: palegoldenrod;
     height: 100vh;
-}
-.stats {
-    background: #0000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.statsImage {
-    position: absolute;
-    width: 330px;
-    height: auto;
-    left: -170px;
-    z-index: 1;
-}
-.specsContainer {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.downloadFolder {
-    width: 100%;
-    text-align: center;
-    font-family: AktivGrotesk-Regular;
-    font-size: 16px;
-    color: #FFDF00;
-}
-.downloadFolder a:hover {
-    cursor: pointer;
-}
-.specs {
-    border-left: 1px solid #828282;;
-    width: 215px;
-    z-index: 5;
-}
-.specs p {
-    padding: 16px;
-}
-.specs h1 {
-    padding-left: 16px;
-}
-.specs h1 {
-    font-family: AktivGrotesk-Regular;
-    font-size: 16px;
-    line-height: 19px;
-    color: #8D8D8D;
-}
-.specs p {
-    font-family: AktivGrotesk-Regular;
-    font-size: 14px;
-    line-height: 143.5%;
-    color: #D7D7D7;
-}
-.seasons {
-    background: olivedrab;
 }
 .merch {
     background: #000;
