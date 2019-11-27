@@ -1,0 +1,38 @@
+.downloadFolder {
+    text-align: center;
+    padding: 30px;
+}
+.downloadFolder a {
+    text-decoration: none;
+    color: #FFDF00;
+}
+.stats {
+}
+#statsContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.statBoxes {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 585px;
+    overflow: scroll;
+}
+.statBox {
+    border-left: 1px solid grey;
+    padding-left: 15px;
+    max-width: 360px;
+}
+.statBox h1 {
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+.statBox p {
+    font-size: 14px;
+    line-height: 20px;
+}
