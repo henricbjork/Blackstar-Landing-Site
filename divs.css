@@ -130,27 +130,5 @@ section.footerBoxes {
     .contact {
         background: url(images/background-images/formdesktop.png) no-repeat center;
         background-size: cover;
-    } 
-    footer {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        border: 1px solid white;   
-        height: 305px; 
-    }
-    footer > img {
-        margin: 0;   
-    }
-    section.footerBoxes {
-        flex-direction: row;
-    }
-    .footerInfo {
-        max-width: 175px;
-        min-width: 175px;
-    }
-    .boxBottom {
-        border: 1px solid white;
-        position: relative;
-        bottom:  -240px;
     }
 }
