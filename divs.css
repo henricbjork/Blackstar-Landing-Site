@@ -83,27 +83,26 @@ footer {
     margin: 0 20px;
     border-top: 1px solid;
 }
-footer > img {
+.footerImage {
     display: block;
     margin: 32px auto;
 }
 section.footerBoxes {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
 }
 .footerInfo {
-    margin-bottom: 32px;
+    margin-bottom: 15px;
 }
+
 .footerInfo > p {
     font-size: 14px;
     line-height: 150%;
 }
 .contactInfo > span {
     display: block;
-    font-size: 14px;
     line-height: 16px;
-    margin: 4px 0;
+    margin: 0 0 10px 0;
 }
 .contactInfo > span > a {
     color: #BAB9B9;
@@ -130,5 +129,29 @@ section.footerBoxes {
     .contact {
         background: url(images/background-images/formdesktop.png) no-repeat center;
         background-size: cover;
-    } 
+    }
+    /* Footer desktop */
+    footer {
+        max-width: 80%;
+        margin: auto;
+    }
+    footer > * {
+        margin-top: 32px;
+    }
+    .footerImage {
+        margin: 0 24px 0 0;
+    }
+    .footerInfo {
+        margin: 0 24px 0 0;
+    }
+    .contactInfo {
+        margin: 0 24px 0 0;
+    }
+    section.footerBoxes {
+    flex-direction: row;
+    max-width: 610px;
+    }
+    .contactInfo > span {
+        font-size: 14px;
+    }
 }
