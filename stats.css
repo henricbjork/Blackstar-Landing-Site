@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: space-around;
     height: 585px;
-    overflow: scroll;
 }
 .statBox {
     border-left: 1px solid grey;
