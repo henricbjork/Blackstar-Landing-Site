@@ -26,8 +26,8 @@
     position: fixed;
     top: 50px;
     right: 1px;
-    height: 150px;
-    width: 60px;
+    height: 170px;
+    width: 80px;
     font-size: 16px;
     background-color: rgba(0, 0, 0, .5);
     color: #FFFFFF;
@@ -37,6 +37,7 @@
 .dropDownItem {
     display: flex;
     justify-content: space-evenly;
+    padding: 5px;
 }
 .dropDown img {
     height: 16px;

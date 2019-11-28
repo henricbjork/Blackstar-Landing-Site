@@ -8,6 +8,8 @@ const slidesLink = document.querySelector('.inspiration');
 const specsLink = document.querySelector('.specifications');
 const merchLink = document.querySelector('.merchandise');
 const signUpLink = document.querySelector('.signup');
+const stats = document.querySelector('.stats');
+const merch = document.querySelector('.merch')
 
 // makes the nav bar dissappear when clicking on a nav link
 navItems.forEach((navItem) => {

@@ -3,7 +3,7 @@ const sliders = document.querySelectorAll(".slideIn");
 
 // tells the animation when to happen based on how far down the div the user has scrolled
 const appearOptions = {
-    threshold: 0.50,
+    threshold: 0.40,
 };
 
 const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {

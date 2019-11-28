@@ -38,7 +38,7 @@
     height: 100vh;
 }
 .contact {
-    background: url(images/background-images/form.png) no-repeat center;
+    background: url(images/background-images/form.jpeg) no-repeat center;
     background-size: cover;
 }
 form {
@@ -65,6 +65,7 @@ input {
     line-height: 19px;
     padding-left: 15px;
     color: #858585;
+    background-color: rgba(0, 0, 0, .3);
 }
 ::placeholder {
     font-family: AktivGrotesk-Regular;
@@ -120,10 +121,6 @@ section.footerBoxes {
     .container {
         min-height: 100vh;
         background: url(images/background-images/hero.jpeg) no-repeat center; 
-        background-size: cover;
-    }
-    .contact {
-        background: url(images/background-images/formdesktop.png) no-repeat center;
         background-size: cover;
     }
 
