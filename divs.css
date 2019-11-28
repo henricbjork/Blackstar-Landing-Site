@@ -1,6 +1,6 @@
 .container {
     height: 95vh;
-    background: url(images/background-images/hero.png) no-repeat center;
+    background: url(images/background-images/hero.jpeg) no-repeat center;
     background-size: cover;
 } 
 .seasons,
@@ -36,10 +36,6 @@
 .slideShow {
     background: palegoldenrod;
     height: 100vh;
-}
-.merch {
-    background: #000;
-    height: 80vh;
 }
 .contact {
     background: url(images/background-images/form.png) no-repeat center;
@@ -124,7 +120,7 @@ section.footerBoxes {
 @media only screen and (min-width: 500px) { 
     .container {
         min-height: 100vh;
-        background: url(images/background-images/herodesktop.png) no-repeat center; 
+        background: url(images/background-images/hero.jpeg) no-repeat center; 
         background-size: cover;
     }
     .contact {

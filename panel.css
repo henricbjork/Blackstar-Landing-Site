@@ -11,10 +11,11 @@
         display: none;
     }
     .panel {
-        width: 1440px;
+        background: url(images/background-images/paneldesktop.png) no-repeat center;
+        background-size: cover;
+        width: 100%;
         min-height: 981px;  
     }
     .panelDesktop {
-        object-fit: cover;
     }
 }
