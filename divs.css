@@ -38,8 +38,14 @@
     height: 100vh;
 }
 .contact {
-    background: url(images/background-images/form.jpeg) no-repeat center;
+    background: url(images/background-images/formdesktop.jpg) no-repeat center;
     background-size: cover;
+}
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
 }
 form {
     display: flex;
@@ -123,7 +129,6 @@ section.footerBoxes {
         background: url(images/background-images/hero.jpeg) no-repeat center; 
         background-size: cover;
     }
-
     /* Footer desktop */
     footer {
         max-width: 80%;

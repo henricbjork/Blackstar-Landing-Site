@@ -48,3 +48,7 @@
   bottom: 70px;
   left: 10px;
 }
+.merchItem1 a:hover,
+.merchItem2 a:hover {
+  cursor: pointer;
+}
