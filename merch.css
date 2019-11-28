@@ -15,15 +15,11 @@
 .merchItems img {
   margin: 5px 0px 5px 0px;
 }
-.merchClock {
-  width: 273px;
-  height: 400px; 
-  border: 1px solid silver;
-}
+.merchClock,
 .merchSmartwatch {
   width: 273px;
-  height: 400px;  
-  border: 1px solid #FFDF00;
+  height: 361px; 
+  border: 1px solid silver;
 }
 @media only screen and (min-width: 500px) {
   .merch {
@@ -32,4 +28,23 @@
   .merchItems {
     justify-content: space-around;
   }
+}
+.merchItem1 h1,
+.merchItem2 h1 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  position: relative;
+  bottom: 70px;
+  left: 10px;
+}
+.merchItem1 a,
+.merchItem2 a {
+  font-size: 16px;
+  color: #FFDF00; 
+  border-bottom: 1px solid #FFDF00;
+  position: relative;
+  bottom: 70px;
+  left: 10px;
 }
