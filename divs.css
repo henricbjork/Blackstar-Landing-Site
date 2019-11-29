@@ -75,7 +75,7 @@ input {
 ::placeholder {
     font-family: AktivGrotesk-Regular;
     font-size: 16px;
-    line-height: 19px;
+    line-height: -moz-block-height;
     color: #858585;
 
 }
@@ -154,3 +154,4 @@ section.footerBoxes {
     }
 
 }
+
